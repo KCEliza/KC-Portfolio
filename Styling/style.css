@@ -1,0 +1,25 @@
+
+/* Similar styling */
+h2{
+    font-size:75px;
+    float:left;
+    margin:20px;
+    color:#081f1c;
+    text-shadow: -1px 0 #0d5b28, 0 1px #0d5b28, 1px 0 #0d5b28, 0 -1px #0d5b28;
+}
+.navBtns a{
+    color: #6d6c51;
+    padding: 14px 25px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  nav{
+      float:right;
+  }
+  #portBody, #contactBody{
+    background-image:url(../Images/tree.jpeg)
+  }
+  /* Home page specific */
+  #homeBody{
+      background-image:url(../Images/treeBackHome.jpg)
+  }
