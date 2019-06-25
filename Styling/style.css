@@ -1,11 +1,17 @@
+/* clear fix */
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
 
 /* Similar styling */
 h2{
     font-size:75px;
     float:left;
     margin:20px;
-    color:#081f1c;
-    text-shadow: -1px 0 #0d5b28, 0 1px #0d5b28, 1px 0 #0d5b28, 0 -1px #0d5b28;
+    color:#6d6c51;
 }
 .navBtns a{
     color: #6d6c51;
@@ -23,3 +29,53 @@ h2{
   #homeBody{
       background-image:url(../Images/treeBackHome.jpg)
   }
+  #aboutContainer{
+    float:right;
+    border: solid 1px #2E8D36;
+    width:600px;
+    height: 500px;
+    margin-top:350px;
+    margin-right:-100px;
+    font-size: 25px;
+  }
+  .aboutMe{
+    padding: 10px;
+    color: #6d6c51;
+  }
+  /* portfolio page specific */
+  #portContent{
+    width: 700px;
+    height:500px;
+    background: orange;
+    margin-left:30%;
+    margin-auto
+  }
+  #portPics{
+    width:300px;
+    height:300px;
+    float:left;
+    margin:10px;
+  }
+  /* contact page specific */
+  #contactContainer{
+    float:right;
+    margin-top: 10%;
+    margin-right: 35%;
+    height:600px;
+    width:600px;
+    border: solid 1px #2E8D36;
+    
+  }
+  #name, #email, #message{
+    padding:10px;
+    margin:10px;
+    width:90%;
+    list-style: none;
+  }
+  #message{
+    height: 75px;
+  }
+  label{
+    color: #6d6c51;
+  }
+  
